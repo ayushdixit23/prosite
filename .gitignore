@@ -1,0 +1,62 @@
+# See https://nextjs.org/docs/basic-features/static-file-serving for more info on the public folder.
+
+# Node.js
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next
+out
+*.log
+
+# Environment Variables
+.env
+.env.*.local
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Logs
+logs
+*.log
+*.csv
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+.babel_cache/
+.cache/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.bak
+*.orig
+*.patch
+*.rej
+*.exe
+
+# Miscellaneous
+public/static/development/
+public/static/preview/
